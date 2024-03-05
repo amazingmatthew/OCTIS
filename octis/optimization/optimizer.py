@@ -52,7 +52,7 @@ class Optimizer:
         :type extra_metrics: list of metrics, optional
         :param number_of_call: number of evaluations of metric
         :type number_of_call: int, optional
-        :param n_random_starts: number of evaluations of metric with random
+        :param n_random_starts:n number of evaluations of metric with radom
             points before approximating it with surrogate model
         :type n_random_starts: int, optional
         :param initial_point_generator: set an initial point generator.
